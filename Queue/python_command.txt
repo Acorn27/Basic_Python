@@ -1,3 +1,6 @@
 See all Python versions available on the system and their path: 
     py -0p
-    
+Create virtual environment:
+    1. Add python version to venv, venvName can be any name you want
+    path\path\path\python.exe -m venv venvName
+    2. 
