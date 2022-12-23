@@ -2,5 +2,9 @@ See all Python versions available on the system and their path:
     py -0p
 Create virtual environment:
     1. Add python version to venv, venvName can be any name you want
-    path\path\path\python.exe -m venv venvName
-    2. 
+        + path\path\path\python.exe -m venv venvName (a copy of current python to a new venvName)
+    2. activate environment: 
+        + source venvName/bin/activate: mac/unix
+        + source venvName/Script/activate.bat: window (add python path to the beginning of %PATH%: echo %PATH% to see the difference)
+        
+
