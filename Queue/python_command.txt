@@ -1,10 +1,14 @@
 See all Python versions available on the system and their path: 
     py -0p
 Create virtual environment:
-    1. Add python version to venv, venvName can be any name you want
+    1. Add python version of choice to venv, venvName can be any name you prefer
         + path\path\path\python.exe -m venv venvName (a copy of current python to a new venvName)
     2. activate environment: 
         + source venvName/bin/activate: mac/unix
-        + source venvName/Script/activate.bat: window (add python path to the beginning of %PATH%: echo %PATH% to see the difference)
-        
-
+        + venvName/Script/activate.bat: window (add python path to the beginning of %PATH%: echo %PATH% to see the difference)
+    3. pip install everything(included pip install -r requirements): newly installed package will go only into your vritual environment sub-folder
+    4. run deactivate.bat to exit virtual environment
+Note: There might be multiple python versions install in your machine. Installation folder or path depend on how you installed your python at the first place
+(window appstore, microsoft visual studio, python.org...). The first two installation method won't be update very oftenly and usually out of date. I would recommended install python through
+py.org, then set it path to python.exe and pip.exe to the top priority. Never install any package directly to you system py, alternatively create a virtual enviroment and put everything in it
+Keep your system nice and clean. 
